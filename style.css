@@ -1,6 +1,30 @@
 body {
     background-image: url('assets/images/Geo_wallpaper.jpg')
 }
+/* Desktop Screen Size Begin */
+
+
+@media only screen and (min-width: 992px){
+
+  /* Home Page Begin */
+
+  .card {
+    width: 770px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    height: 50%;
+  }
+  /* Home Page End */
+}
+.card img {
+  width:350px;
+  height:350px;
+  margin: 5px;
+}
+/* Desktop Screen Size Ends */
+
 /* Mobile Screen Size Begin */
 
 @media handheld, screen and (max-width: 599px) {
@@ -8,10 +32,17 @@ body {
   /* Home Page Begin */
 
   .card {
-    width: 90%;
+    width: 390px;
     position: relative;
     display: block;
     height: 50%;
+    margin:5px;
+  }
+  .card img {
+    width:350px;
+    height:350px;
+    margin-left: -2px;
+    margin-bottom:10px;
   }
 
  
@@ -23,54 +54,17 @@ body {
 @media only screen and (min-width: 600px) and (max-width: 991px) {
   
   .card {
-    width: 570px;
+    width: 450px;
     position: relative;
     display: block;
     height: 50%;
+    margin-left: 20px;
+  }
+  .card img {
+    width:350px;
+    height:350px;
+    align-items: center;
+    margin: 10px;
   }
 
 /* Tablet Screen Size End */
-
-/* Desktop Screen Size Begin */
-
-@media only screen and (min-width: 992px) and (max-width: 1240){
-
-  /* Home Page Begin */
-
-  .card {
-    width: 700px;
-    margin-right: 20px;
-    position: relative;
-    display: block;
-    height: 50%;
-  }
-  /* Home Page End */
-}
-
-@media handheld, screen and (max-width: 1280px) {
-
-  ul.navbar li {display: none;}
-
-  ul.navbar li.icon {
-    float: right;
-    display: inline-block;
-  }
-
-  ul.navbar.responsive {position: relative;}
-
-  ul.navbar.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  ul.navbar.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.navbar.responsive li a {
-    display: block;
-    text-align: left;
-  }
-
-}
