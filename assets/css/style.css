@@ -1,15 +1,25 @@
 body {
-    background-image: url('assets/images/Geo_wallpaper.jpg')
+    background-image: url('../images/Geo_wallpaper.jpg')
+}
+
+.navlogo {
+  font-family: 'Rock Salt', cursive;
+  color:white;
+  font-size: 20px;  
+}
+
+body div h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #17a2b8;
 }
 /* Desktop Screen Size Begin */
-
 
 @media only screen and (min-width: 992px){
 
   /* Home Page Begin */
 
   .card {
-    width: 770px;
+    width: 800px;
     margin-right: 20px;
     margin-left: 20px;
     position: relative;
@@ -32,7 +42,7 @@ body {
   /* Home Page Begin */
 
   .card {
-    width: 390px;
+    width: 92%;
     position: relative;
     display: block;
     height: 50%;
@@ -54,7 +64,7 @@ body {
 @media only screen and (min-width: 600px) and (max-width: 991px) {
   
   .card {
-    width: 450px;
+    width: 70%;
     position: relative;
     display: block;
     height: 50%;
