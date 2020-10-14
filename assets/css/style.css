@@ -15,15 +15,15 @@ body div h1 {
 
 /* Mobile Screen Size Begin */
 
-@media handheld, screen and (max-width: 599px) {
+@media handheld, screen and (max-width: 499px) {
 
   /* Home Page Begin */
+  
   .column {
-    margin: 20px 0 0 20px;
-    width: 90%;
+    margin:20px;
+    width: 95%;
     height:100%;
-    min-width: 360px;
-    align-items: middle;
+    padding: 10px;
     position: relative;
    
   }
@@ -31,17 +31,17 @@ body div h1 {
   .column img {
     width:350px;
     height:350px;
-    margin:10px;
-    position: relative;
+    margin-bottom: 20px;
   } 
    
 } 
+  
    /* Home Page End */
 
 
 /* Tablet Screen Size Begin */
 
-@media only screen and (min-width: 600px) and (max-width: 991px) {
+@media only screen and (min-width: 500px) and (max-width: 991px) {
   
   .column {
     margin: 20px;
@@ -57,8 +57,12 @@ body div h1 {
     margin: 20px ;
     margin-bottom:20px;
   } 
- 
 }
+  .card {
+    width: 60%;
+    margin: 20px;
+    padding: 10px;
+  }
 /* Tablet Screen Size End */
 
 /* Desktop Screen Size Begin */
@@ -81,6 +85,11 @@ body div h1 {
     margin: 20px;
     margin-bottom:20px;
   } 
+}
+.card {
+  width: 70%;
+  margin: 20px;
+  padding: 10px;
 }
   /* Home Page End */
 
