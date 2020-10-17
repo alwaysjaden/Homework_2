@@ -3,94 +3,26 @@ body {
 }
 
 .navlogo {
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Courier New', Courier, monospace;
   color:white;
+  background-color: black;
+  padding:5px;
   font-size: 20px;  
 }
-
-body div h1 {
+ h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #17a2b8;
 }
-
-/* Mobile Screen Size Begin */
-
-@media handheld, screen and (max-width: 499px) {
-
-  /* Home Page Begin */
-  
-  .column {
-    margin:40px 0px 20px 20px;
-    width: 91%;
-    height:100%;
-    padding: 10px;
-    position: relative;
-   
-  }
-
-  .column img {
-    width:350px;
-    height:350px;
-    margin-bottom: 20px;
-  } 
-   
-} 
-  
-   /* Home Page End */
-
-
-/* Tablet Screen Size Begin */
-
-@media only screen and (min-width: 500px) and (max-width: 991px) {
-  
-  .column {
-    margin:40px 0px 20px 20px;
-    width: 60%;
-    min-width: 500px;
-    padding: 10px;
-    position: relative;
-  }
-
-  .column img {
-    width:350px;
-    height:350px;
-    margin: 20px ;
-    margin-bottom:20px;
-  } 
-}
-  .card {
-    width: 60%;
-    margin: 20px;
-    padding: 10px;
-  }
-/* Tablet Screen Size End */
-
-/* Desktop Screen Size Begin */
-
-@media only screen and (min-width: 992px) {
-
-  /* Home Page Begin */
- 
-  .column {
-    width: 80%;
-    max-width:900px;
-    margin:40px 0px 20px 20px;
-    padding: 10px;
-    position: relative;
-  }
-
-  .column img {
-    width:350px;
-    height:350px;
-    margin: 20px;
-    margin-bottom:20px;
-  } 
-}
-.card {
-  width: 70%;
-  margin: 20px;
+.col {
+  margin: 40px 0 10px 18px;
   padding: 10px;
+  position: relative;
+ 
 }
-  /* Home Page End */
+.col img {
+  display:block;
+  width:350px;
+  height:350px;
+  margin: 0 0 15px 15px;
 
-/* Desktop Screen Size Ends */
+} 
