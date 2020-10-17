@@ -21,8 +21,12 @@ body {
 }
 .col img {
   display:block;
+  overflow:hidden;
   width:350px;
-  height:350px;
   margin: 0 0 15px 15px;
 
 } 
+.alert {
+  display:block;
+  margin: 0 0 15px 15px;
+}
