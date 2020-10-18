@@ -1,5 +1,6 @@
 # Homework_2 - Personal Portfolio
 
+![Personal Profile](./assets/images/SnapShot.jpg?raw=true "Personal Profile")
 
 # About This Project
 
