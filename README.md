@@ -41,6 +41,7 @@ Using Bootstrap, develop your portfolio site with the following items:
 # Contact
     Jaden Lee : alwaysjaden@gmail.com
     Project Link: https://github.com/alwaysjaden/Homework_2
+    Published Github Page : https://alwaysjaden.github.io/Jaden_Portfolio/
 
 
 
